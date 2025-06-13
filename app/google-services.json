@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "78652917077",
+    "project_id": "db-tiketapp",
+    "storage_bucket": "db-tiketapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78652917077:android:eabe4104993a9ba88d1bdc",
+        "android_client_info": {
+          "package_name": "com.example.ticketbookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBff1artouRc2rGvf0WvDhINqRS870X6ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.TicketBookingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Light theme customization -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorSecondary">@color/my_light_secondary</item>
+        <item name="colorPrimaryContainer">@color/my_light_secondary</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <!-- Application theme -->
+    <style name="Theme.TicketBookingApp" parent="Base.Theme.TicketBookingApp" />
+</resources>

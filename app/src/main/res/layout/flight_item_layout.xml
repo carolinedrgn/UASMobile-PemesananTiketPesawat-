@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/card_background_pink"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textViewDepartureTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="08:00"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginHorizontal="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewArrivalTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10:00"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins_regular"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewAirline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Garuda Indonesia (Jakarta → Bali)"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal: 25/05/2025"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewTransportType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transportasi: Pesawat"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textViewPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rp 1.500.000"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <Button
+                android:id="@+id/buttonBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pesan"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#42A5F5"
+                android:fontFamily="@font/poppins_medium"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonFillPassengerData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isi Data Diri Penumpang"
+            android:backgroundTint="#42A5F5"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</LinearLayout>

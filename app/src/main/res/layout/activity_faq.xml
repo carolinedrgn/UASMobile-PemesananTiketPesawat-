@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/faqLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundd"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/textViewFAQTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQ (Pertanyaan Umum)"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- ExpandableListView FAQ -->
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#EB839B"
+        android:dividerHeight="1dp"
+        android:background="#FFECEE"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:fontFamily="@font/poppins_medium"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Tombol Kembali ke Beranda -->
+    <Button
+        android:id="@+id/buttonBackHomeFAQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali ke Beranda"
+        android:backgroundTint="#EB839B"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginBottom="24dp" />
+
+</LinearLayout>

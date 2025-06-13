@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- Judul Form -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form Identitas Penumpang"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Label Nama -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_gravity="start"/>
+
+        <!-- Input Nama -->
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nama lengkap"
+            android:inputType="textPersonName"
+            android:background="@drawable/rounded_edittext"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Label Nomor Identitas -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor KTP / Identitas"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_gravity="start"/>
+
+        <!-- Input Nomor Identitas -->
+        <EditText
+            android:id="@+id/editTextIDNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nomor identitas"
+            android:inputType="number"
+            android:background="@drawable/rounded_edittext"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Label Alamat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_gravity="start"/>
+
+        <!-- Input Alamat -->
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan alamat"
+            android:inputType="textPostalAddress"
+            android:background="@drawable/rounded_edittext"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Tombol Submit -->
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lanjut ke Pembayaran"
+            android:backgroundTint="#eb839b"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins_medium" />
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonBook"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Bayar"-->
+<!--            android:background=""-->
+<!--            android:textColor="#eb839b"-->
+<!--            android:fontFamily="@font/poppins_medium"/>-->
+    </LinearLayout>
+</ScrollView>
